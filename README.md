@@ -1,13 +1,18 @@
 - Downloads Terraform
 
 - [https://www.terraform.io/downloads]
+- [https://registry.terraform.io/browse/providers]
+
+```
+terraform init
+```
 
 ```
 terraform plan
 ```
 
 ```
-terraform apply
+terraform apply OR  terraform appl --auto-approve
 ```
 
 ```
