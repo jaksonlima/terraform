@@ -6,11 +6,12 @@ terraform {
     local = ">=2.2.3"
   }
 
-   backend "s3" {
+  backend "s3" {
     bucket = "myjwsystembucket"
     key = "terraform.tfstate"
     region =  "sa-east-1"
   }
+  
 }
 
 provider "aws" {
